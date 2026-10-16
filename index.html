@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Resume - Phattharaporn Jintsakul</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #18bc9c;
+            --bg-color: #f8f9fa;
+            --text-color: #333333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            margin: 0;
+            color: var(--primary-color);
+            font-size: 2.2em;
+        }
+        h2 {
+            color: var(--secondary-color);
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .contact-info {
+            margin-top: 15px;
+            font-size: 0.95em;
+            color: #555;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h3 {
+            color: var(--primary-color);
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        @media (max-width: 600px) {
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header: Name & Address -->
+        <header>
+            <h1>Ms. Phattharaporn Jintsakul</h1>
+            <h2>Sophomore Accounting Student</h2>
+            <div class="contact-info">
+                <p><strong>Institution:</strong> University of the Thai Chamber of Commerce, Faculty of Accounting, Major in Accounting</p>
+            </div>
+        </header>
+
+        <!-- Profile Statement / Internship Objective -->
+        <section>
+            <h3>Profile Statement</h3>
+            <p>A second-year accounting student with foundational knowledge in accounting. Eager to start an internship in the accounting field to apply knowledge and skills acquired from studies to practical work. Committed to continuous learning and professional development, with high responsibility, dedication, and readiness to grow and contribute to organizational success.</p>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h3>Education</h3>
+            <ul>
+                <li><strong>University of the Thai Chamber of Commerce</strong></li>
+                <li>Faculty of Accounting, Major in Accounting</li>
+                <li>Bachelor's Degree, 2nd Year Student</li>
+            </ul>
+        </section>
+
+        <!-- Work Experience / Internship -->
+        <section>
+            <h3>Work Experience / Internship</h3>
+            <p><strong>Punjan Thai Co., Ltd.</strong> (2-Month Internship)</p>
+            <p><strong>Responsibilities:</strong></p>
+            <ul>
+                <li>Prepared various accounting documents and records</li>
+                <li>Handled bookkeeping entries, received checks, and processed vouchers</li>
+                <li>Prepared withholding tax certificates (PND.3 and PND.53 for car rentals, employee allowances, etc.) and payment vouchers</li>
+            </ul>
+        </section>
+
+        <!-- Accounting Projects -->
+        <section>
+            <h3>Accounting Projects</h3>
+            <ul>
+                <li>Conducted accounting transaction analysis based on assigned case studies</li>
+                <li>Practiced recording business transactions and financial statement preparation</li>
+                <li>Utilized Microsoft Excel for accounting calculations and data processing</li>
+                <li>Collaborated effectively with team members on project planning and presentations</li>
+            </ul>
+        </section>
+
+        <!-- Interests & Skills -->
+        <section>
+            <h3>Interests & Skills</h3>
+            <div class="skills-grid">
+                <div>
+                    <p><strong>Computer & Software Skills:</strong></p>
+                    <ul>
+                        <li>Microsoft Excel, Microsoft Word, Microsoft PowerPoint</li>
+                        <li>Express Accounting Software</li>
+                        <li>Quick adaptability to new accounting programs</li>
+                    </ul>
+                </div>
+                <div>
+                    <p><strong>Soft Skills & Personal Attributes:</strong></p>
+                    <ul>
+                        <li>Foundational knowledge in accounting</li>
+                        <li>Strong teamwork and communication skills</li>
+                        <li>Problem-solving skills</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
