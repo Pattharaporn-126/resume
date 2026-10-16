@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Resume - ภัทรพร จินตสกุล</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #18bc9c;
+            --bg-color: #f8f9fa;
+            --text-color: #333333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            margin: 0;
+            color: var(--primary-color);
+            font-size: 2.2em;
+        }
+        h2 {
+            color: var(--secondary-color);
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .contact-info {
+            margin-top: 15px;
+            font-size: 0.95em;
+            color: #555;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h3 {
+            color: var(--primary-color);
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        @media (max-width: 600px) {
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ส่วนหัว: ชื่อและที่อยู่ -->
+        <header>
+            <h1>นางสาวภัทรพร จินตสกุล</h1>
+            <h2>นักศึกษาคณะบัญชี ชั้นปีที่ 2</h2>
+            <div class="contact-info">
+                <p><strong>ที่อยู่:</strong> มหาวิทยาลัยหอการค้าไทย คณะบัญชี สาขาวิชาการบัญชี</p>
+            </div>
+        </header>
+
+        <!-- ข้อความแนะนำตัว / เป้าหมายในการฝึกงาน -->
+        <section>
+            <h3>ข้อความแนะนำตัว (Profile Statement)</h3>
+            <p>นักศึกษาชั้นปีที่ 2 สาขาการบัญชี มีความรู้พื้นฐานด้านการบัญชี ต้องการเริ่มต้นฝึกทำงานในสายงานบัญชี เพื่อนำความรู้และทักษะด้านการบัญชีที่ได้รับจากการศึกษามาประยุกต์ใช้ในการทำงานจริง พร้อมเรียนรู้และพัฒนาทักษะด้านบัญชีอย่างต่อเนื่อง มีความตั้งใจในการทำงาน มีความรับผิดชอบ พร้อมพัฒนาตนเองเพื่อเติบโตในสายงานบัญชีและสร้างประโยชน์ให้กับองค์กร</p>
+        </section>
+
+        <!-- ประวัติการศึกษา -->
+        <section>
+            <h3>การศึกษา (Education)</h3>
+            <ul>
+                <li><strong>มหาวิทยาลัยหอการค้าไทย</strong></li>
+                <li>คณะบัญชี สาขาวิชาการบัญชี</li>
+                <li>กำลังศึกษาอยู่ระดับปริญญาตรี ชั้นปีที่ 2</li>
+            </ul>
+        </section>
+
+        <!-- ประสบการณ์ทำงาน -->
+        <section>
+            <h3>ประสบการณ์ทำงาน / ฝึกงาน (Work Experience)</h3>
+            <p><strong>บริษัท ปั้นจั่นไทย จำกัด</strong> (ระยะเวลาฝึกงาน 2 เดือน)</p>
+            <p><strong>หน้าที่ความรับผิดชอบ:</strong></p>
+            <ul>
+                <li>จัดทำเอกสารต่าง ๆ ด้านการบัญชี</li>
+                <li>ลงบันทึกบัญชี, รับเช็ค, ทำใบผ่าน</li>
+                <li>จัดทำใบภาษีเงินได้หัก ณ ที่จ่าย และใบจ่าย</li>
+                <li>จัดทำ ภงด.3 และ ภงด.53 (ค่าเช่ารถยนต์ และค่าเบี้ยพนักงาน ฯลฯ)</li>
+            </ul>
+        </section>
+
+        <!-- โครงงานด้านการบัญชี -->
+        <section>
+            <h3>โครงงานด้านการบัญชี</h3>
+            <ul>
+                <li>จัดทำวิเคราะห์รายการทางบัญชีจากกรณีศึกษาที่กำหนด</li>
+                <li>ฝึกบันทึกรายการค้าและจัดทำงบการเงิน</li>
+                <li>ใช้ Microsoft Excel ในการคำนวณและจัดทำข้อมูลทางบัญชี</li>
+                <li>ทำงานร่วมกับสมาชิกในทีมในการวางแผนและนำเสนอโครงงาน</li>
+            </ul>
+        </section>
+
+        <!-- ความสนใจ / ทักษะและความสามารถ -->
+        <section>
+            <h3>ความสนใจและทักษะ (Interests & Skills)</h3>
+            <div class="skills-grid">
+                <div>
+                    <p><strong>ทักษะด้านคอมพิวเตอร์และโปรแกรม:</strong></p>
+                    <ul>
+                        <li>Microsoft Excel, Microsoft Word, Microsoft PowerPoint</li>
+                        <li>โปรแกรมบัญชี Express</li>
+                        <li>มีความสามารถในการเรียนรู้โปรแกรมการบัญชีใหม่ๆ ได้</li>
+                    </ul>
+                </div>
+                <div>
+                    <p><strong>ทักษะด้านบุคลิกภาพและการทำงาน:</strong></p>
+                    <ul>
+                        <li>มีความรู้พื้นฐานทางด้านการบัญชี</li>
+                        <li>ทักษะการทำงานร่วมกับผู้อื่นและการสื่อสาร</li>
+                        <li>ทักษะการแก้ไขปัญหา</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
